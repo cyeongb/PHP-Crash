@@ -1,4 +1,6 @@
-<?php echo 'Hello1234'; ?>
+<?php
+//  print_r(['a', 'b', 1, 2]);
+?>
 
 
 <!DOCTYPE html>
@@ -10,7 +12,10 @@
 </head>
 
 <body>
-    <h2> <?php echo 'html document'; ?></h2>
+    <h2> 
+        <?php echo 'html document'; ?>
+        <?= 'html document'; ?>
+    </h2>
 
 </body>
 
